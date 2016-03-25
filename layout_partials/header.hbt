@@ -11,5 +11,5 @@ if(top !== self) {
 }
 </script>
 
-<link href="/buttonui.css" rel="stylesheet">
-<link href="/tridiybio.css" rel="stylesheet">
+<link href="{{> root}}/buttonui.css" rel="stylesheet">
+<link href="{{> root}}/tridiybio.css" rel="stylesheet">

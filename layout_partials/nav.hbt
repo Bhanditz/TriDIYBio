@@ -1,5 +1,5 @@
 <nav class="button_nav">
-  <a tabIndex="1" accessKey="t" href="/index.html">TriDIYBio</a>
-  <a tabIndex="2" accessKey="a" href="/about.html">About</a>
-  <a tabIndex="3" accessKey="c" href="/contact.html">Contact</a>
+  <a tabIndex="1" accessKey="t" href="{{> root}}/index.html">TriDIYBio</a>
+  <a tabIndex="2" accessKey="a" href="{{> root}}/about.html">About</a>
+  <a tabIndex="3" accessKey="c" href="{{> root}}/contact.html">Contact</a>
 </nav>

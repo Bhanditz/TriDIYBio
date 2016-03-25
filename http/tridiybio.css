@@ -1,0 +1,56 @@
+#bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #D0D6D0;
+}
+
+a {
+  color: #03C03C;
+}
+a:visited {
+  color: #228B22;
+}
+
+#logo {
+  position: fixed;
+  top: 0;
+  height: 50px;
+  right: 15px;
+  z-index: 11;
+}
+@media (max-width: 767px) {
+  #logo {
+    visibility: hidden;
+  }
+}
+
+#logo > img {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 50px;
+  left: 5%;
+  width: 90%;
+}
+@media (max-width: 767px) {
+  .content {
+    top: 80px;
+  }
+}
+
+.content > div {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.button_panel_heading > a,
+.button_panel_heading > a:visited {
+  color: #000;
+}

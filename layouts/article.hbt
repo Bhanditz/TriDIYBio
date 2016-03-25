@@ -1,0 +1,24 @@
+{{> header}}
+
+<title>TriDIYBio - {{title}}</title>
+</head>
+
+<body>
+{{> bg}}
+
+{{> nav}}
+
+<div class="content">
+  <div class="button_green">
+    <div class="button_panel_heading">
+      {{title}}
+    </div>
+    <div class="button_panel_body">
+      {{{contents}}}
+      
+      <p style="text-align:right;">by {{author}} - {{date}}</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{{> header}}
+
+<title>TriDIYBio - Contact</title>
+</head>
+
+<body>
+{{> bg}}
+
+{{> nav}}
+
+<div class="content">
+  {{{contents}}}
+</div>
+</body>
+
+<script type="text/javascript">
+var nav = document.querySelector('nav.button_nav');
+
+for(var i = 0, endi = nav.children.length; i < endi; ++i) {
+  if(window.location == nav.children[i].href) {
+    nav.children[i].classList.add('active');
+  }
+}
+</script>
+</html>

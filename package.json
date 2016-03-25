@@ -1,0 +1,42 @@
+{
+  "name": "tridiybio",
+  "version": "0.0.0",
+  "description": "Web site for TriDIYBio",
+  "keywords": [],
+  "homepage": "https://github.com/Densaugeo/TriDIYBio",
+  "bugs": "https://github.com/Densaugeo/TriDIYBio/issues",
+  "license": "MIT",
+  "author": "Densaugeo (http://madengineersworkshop.net/)",
+  "contributors": [],
+  "files": [
+    "layout_partials",
+    "layouts",
+    "src",
+    "gen.js",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "main": "gen.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Densaugeo/TriDIYBio.git"
+  },
+  "scripts": {
+  },
+  "config": {},
+  "dependencies": {
+    "handlebars": "~4.0.5",
+    "metalsmith": "~2.1.0",
+    "metalsmith-collections": "~0.7.0",
+    "metalsmith-filenames": "~1.0.0",
+    "metalsmith-layouts": "~1.6.4",
+    "metalsmith-markdown": "~0.2.1",
+    "metalsmith-snippet": "~2.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=2.0.0"
+  }
+}

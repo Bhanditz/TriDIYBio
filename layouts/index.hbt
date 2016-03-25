@@ -1,0 +1,43 @@
+{{> header}}
+
+<title>TriDIYBio</title>
+</head>
+
+<body>
+{{> bg}}
+
+{{> nav}}
+
+<div class="content">
+  <div class="button_well">
+    <p>We are TriDIYBio, a local community group focused on bringing together anyone interested in DIY biology, biotechnology,  and citizen science.</p>
+  </div>
+  
+  {{#each collections.articles}}
+  <div class="button_green">
+    <div class="button_panel_heading">
+      <a href="{{this.filename}}">{{this.title}}</a>
+    </div>
+    <div class="button_panel_body">
+      {{#if this.img_src}}
+      <figure class="button_panel_figure">
+        <a href="{{this.filename}}"><img src="{{this.img_src}}"></img></a>
+        <figcaption>{{this.img_caption}}<figcaption>
+      </figure>
+      {{/if}}
+      
+      <p>{{{this.snippet}}}</p>
+      
+      <p style="text-align:right;">by {{this.author}} - {{this.date}}</p>
+      
+      <div style="clear: both;"></div>
+    </div>
+  </div>
+  {{/each}}
+</div>
+</body>
+
+<script type="text/javascript">
+document.querySelector('nav.button_nav').children[0].classList.add('active');
+</script>
+</html>

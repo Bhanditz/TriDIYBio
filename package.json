@@ -23,6 +23,7 @@
     "url": "https://github.com/Densaugeo/TriDIYBio.git"
   },
   "scripts": {
+    "push": "git push && git subtree push --prefix http origin gh-pages"
   },
   "config": {},
   "dependencies": {

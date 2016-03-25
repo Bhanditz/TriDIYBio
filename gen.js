@@ -21,7 +21,6 @@ metalsmith(__dirname)
   engine: 'handlebars',
   partials: 'layout_partials'
 }))
-.clean(false)
 .destination('http')
 .build(function(err) {
   if(err) throw err;

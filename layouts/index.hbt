@@ -1,6 +1,19 @@
 {{> header}}
 
 <title>TriDIYBio</title>
+
+<style type="text/css">
+#petri_dish > img {
+  width: 100px;
+}
+#petri_dish > img:nth-child(2) {
+  position: relative;
+  left: calc(50% - 150px);
+}
+#petri_dish > img:last-child {
+  float: right;
+}
+</style>
 </head>
 
 <body>
@@ -9,8 +22,14 @@
 {{> nav}}
 
 <div class="content">
+  <div id="petri_dish">
+    <img src="{{> root}}/pics/TriDIYBio_petri_dish.png">
+    <img src="{{> root}}/pics/TriDIYBio_petri_dish.png">
+    <img src="{{> root}}/pics/TriDIYBio_petri_dish.png">
+  </div>
+  
   <div class="button_well">
-    <p>We are TriDIYBio, a local community group focused on bringing together anyone interested in DIY biology, biotechnology,  and citizen science.</p>
+    <p><b>We are TriDIYBio,</b> a local community group focused on bringing together anyone interested in DIY biology, biotechnology,  and citizen science.</p>
   </div>
   
   {{#each collections.articles}}

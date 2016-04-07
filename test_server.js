@@ -27,5 +27,5 @@ server.route({
 });
 
 server.start(function () {
-  console.log('Server running at: ' + server.info.uri + root + '/');
+  console.log('Server running at: http://localhost:8080' + root + '/');
 });
